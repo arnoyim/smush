@@ -1,0 +1,32 @@
+body{
+    background-image: url(../assets/nintendocontroller.jpg);
+}
+
+.fullscreen{
+  text-align: center;
+  top: 70em;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+canvas {
+    display: block;
+    margin: auto;
+    /*height: 70%;*/
+    /*width: 70%;*/
+}
+
+.player1{
+    position: relative;
+    float: right;
+    bottom: -7em;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+.player2{
+    position: relative;
+    float: left;
+    bottom: -7em;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
